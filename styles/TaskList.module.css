@@ -1,0 +1,18 @@
+.tasklist {
+	list-style: none;
+}
+
+.tasklist li {
+	padding: 0.4em;
+	background-color: bisque;
+	margin: 0.2rem;
+}
+
+.tasklist li.completed {
+	background-color: gray;
+	text-decoration: line-through;
+}
+
+.done {
+	float:right;
+}
